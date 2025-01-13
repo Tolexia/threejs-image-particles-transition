@@ -1,0 +1,47 @@
+:root {
+  --light-beige: #f5f3d3;
+  --beige: #e6dfb5;
+  --dark-blue: #265380;
+  --light-cyan: #3ecde3;
+  --text-color: #4ca3e5;;
+  --magenta: #e54ccb;
+}
+html,body, #root, .App{
+  width: 100lvw;
+  max-width: 100lvw;
+  overflow: hidden;
+  height: 100svh;
+  max-height: 100svh;
+}
+
+.App > * {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(128deg, rgba(17, 8, 21,1) 0%, rgba(41, 15, 42, .8) 70%,  rgba(17, 8, 21,1) 100%);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+#root{
+  margin: 0 auto;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

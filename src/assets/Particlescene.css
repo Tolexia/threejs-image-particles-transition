@@ -7,5 +7,13 @@
 }
 
 .cnv{
-    flex: 1;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (orientation:portrait) {
+    canvas, .cnv{
+        height: 40svh!important;
+    }
 }

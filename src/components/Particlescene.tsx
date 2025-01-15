@@ -10,12 +10,10 @@ import '../assets/Particlescene.css'
 const Particlescene: React.FC = () => {
 
   return (
-    <>
       <Canvas className='cnv'>
         <CameraAndControls />
         <Particles />
       </Canvas>
-    </>
   )
 }
 

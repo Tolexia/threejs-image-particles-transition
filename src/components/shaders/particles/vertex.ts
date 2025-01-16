@@ -150,7 +150,7 @@ const particlesVertexShader =  `
         gl_PointSize *= (1.0 / - viewPosition.z);
 
         // Varyings
-        // Just tot twick final color, can be updated or removed
+        // Just to tweak final color, can be updated or removed
         vColor = vec3(pow(pictureIntensity, 3.0));
         vColor.y *= 5.;
         vColor.z *= 17.;
